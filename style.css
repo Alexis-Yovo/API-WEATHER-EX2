@@ -8,9 +8,9 @@ body {
   font-family: "Roboto", "sans-serif";
   background-image: url("images/Bg.png");
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: auto;
-  position: relative;
+  background-repeat: repeat-y;
+  background-attachment: scroll;
+  background-size: cover;
 }
 
 .container {
@@ -34,6 +34,7 @@ body {
 .input {
   width: 80%;
   position: relative;
+  margin: 20px;
 }
 .input input {
   width: 100%;
@@ -80,6 +81,8 @@ body {
 }
 #wType {
   background-color: blue;
+  padding: 30% 0;
+  border-radius: 25%;
 }
 h1 {
   color: white;
